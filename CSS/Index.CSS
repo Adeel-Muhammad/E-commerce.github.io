@@ -1,0 +1,246 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-size:62.5%;
+}
+.container{
+    max-width: 1200px;
+    width: 99%;
+    margin: 0 auto
+}
+ul li{
+    list-style: none;
+    letter-spacing: 0.15rem;
+    display: inline-block;
+    
+}
+      
+ul li a{
+    font-size: 1.6rem;
+    text-decoration: none;
+    padding: 1rem;
+    
+    
+}
+.Navigation{
+    margin-bottom: 15px;
+
+    padding: 0.5rem 0rem;
+
+
+}
+
+.header{
+    height: 99vh;
+    background-image: url(../Image/pexels-adrian-dorobantu-2127733.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header .logo,.header .nav-items a{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    
+} 
+.logo{
+    float: left;
+    margin-top: 1rem;
+
+    font-size: 2.5rem;
+}
+.nav-items{
+    float:right;
+    margin-top: 1rem;
+            
+    
+}
+.Navigation::after{
+    content: '';
+    display: block;
+    clear: both;
+
+}
+.Navigation a:hover{
+    border-bottom: White 3px solid;
+}
+.header-content{
+    display: inline-block;
+}
+.header-content h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}                               
+                
+.header-content p{
+    margin-top: 7px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.9rem;
+    color:Black;
+    text-align: center;
+}
+.btn{
+    
+    padding: 0.5em 1.5em;
+    margin: 0.5em 0;
+    font-weight: 500;
+    
+    }
+.header-content a{
+    display: inline-block;
+    margin: 50px;
+    margin-left: 495px;
+    text-decoration: none;
+    color:rgb(65, 156, 65);
+    background-color: white;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 2.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif                                      ;                                                                                                                                                                                                                      
+    
+                                                     
+}
+.header-content{
+    position:absolute;
+    top: 50%;
+    left:50%; 
+    transform: translate(-50%,-50%);
+    
+}
+.section{
+    background-color:#dddd;
+    padding: 1.5rem 0 ;
+}
+.row{
+    height: 350px;
+    
+}
+.row1{
+           
+    margin-bottom: 10rem;
+}         
+
+.row1 .imgbox,.row2 .text{ 
+
+    float: left;
+    width: 50%;
+                                    
+}
+.row1 .text,.row2 .imgbox{ 
+
+    float:right;
+    width: 49%;
+                                    
+}  
+.row .imgbox{
+                                            
+    height: 100%;                       
+}  
+.row .text{
+              
+                                 
+    height: 100%;                                                                                                                                              
+}              
+
+.row1 .imgbox img{
+                                                
+    width: 100%;
+    height: 100%;
+}
+
+.row2 .imgbox img{
+    display:inline-block;                     
+    width: 100%;
+    height: 100%;     
+}
+
+.row h1  {
+    font-size: 3.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           text-align:center;
+           color: Green                                                                                                                                   ;
+}
+.row p{
+font-size: 1.5rem;
+padding: 0.5rem;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row a{
+    display:  inline-block;     
+    text-decoration: none;
+    color: Green;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid Green ;
+    border-radius:50px; 
+    padding: 0.5rem;
+
+    margin: 1px  9px;
+    
+           
+}
+.OBJ{
+    margin-top: 40px;
+    height: 79vh;
+}
+.OBJ .object{  
+    display: inline-block;
+    border: 2px solid black;
+    width: 32.3%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+
+
+                    
+
+}
+.OBJ .subject{  
+    display: inline-block;
+    border: 2px solid black;
+    width: 32.3%;
+    background-color:grey;
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 1.5rem;
+
+
+                    
+
+}  
+.OBJ .mission{  
+    display: inline-block;
+    border: 2px solid black;
+    width: 32.3%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+
+
+                    
+
+}     
+.OBJ h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 4px white solid;
+}               
+   .bj{
+    background-color: grey;
+   }    
